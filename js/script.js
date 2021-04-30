@@ -508,6 +508,16 @@ window.addEventListener('load', () => {
     }
 })
 
+
+// check id Auth
+window.addEventListener('load', () => {
+    const isAuth = localStorage.getItem('isAuth')
+
+    isAuth === 'true' ? null : window.open('index.html', '_self') 
+})
+
+
+
 const signtOutBtn = document.querySelector('.sighnOutBtn')
 
 signtOutBtn.addEventListener('click', e => {

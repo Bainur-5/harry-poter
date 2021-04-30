@@ -9,8 +9,8 @@ btn.addEventListener('click' , e => {
         alert('Пустые строка')
     }else{
         if(username.value === 'admin' && password.value === 'admin'){
-            // alert('Wlecome')
-            window.open('index.html', '_self')
+            alert('Wlecome')
+            window.open('todo.html', '_self')
             username.value = ''
             password.value = ''
             localStorage.setItem('isAuth', 'true')
@@ -27,5 +27,5 @@ btn.addEventListener('click' , e => {
 window.addEventListener('load', () => {
     const isAuth = localStorage.getItem('isAuth')
 
-    isAuth === 'true' ? window.open('index.html', '_self') : null
+    isAuth === 'true' ? window.open('todo.html', '_self') : null
 })
