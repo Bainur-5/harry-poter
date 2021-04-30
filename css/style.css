@@ -1,0 +1,265 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.redagCard{
+    width: 100%;
+    margin: 2% auto 0% auto;
+    text-align: center;
+    padding: 2% 0;
+}
+.redCard{
+    width: 25%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.089);
+    padding: 2%;
+}
+.redCard form p{
+    text-align: center;
+}
+.redCard form p input{
+    margin-left: 2%;
+}
+.newInpit{
+    padding: 3% 6%;
+    width: 80%;
+    border: 0px;
+    border-radius: 100px;
+}
+
+.newPerson{
+    margin-left: 20%;
+}
+
+
+.nav{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.navGG{
+    width: 99%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.cont_logo{
+    width: 10%;
+    justify-content: space-between;
+}
+.nav_logo{
+    width: 100%;
+}
+.nav_logo img{
+    width: 100%;
+    height: 100%;
+}
+.cont_navBtn{
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%     ;
+}
+.outBtn{
+    background-color:black;
+    padding: 10% 15%;
+    border: 1px solid gold;
+    color: white;
+}
+.cont_sighnOutBtn{
+    text-align: center;
+    display: flex;
+    align-self: center;
+    padding:0 2% 0 0;
+}
+.sighnOutBtn{
+    width: 140%;
+    border: 1px solid gold;
+    color: gold;
+    background-color: rgb(0, 0, 0);
+    padding: 3% 4%;
+    font-size: 80%;
+}
+ 
+/* maoin */
+main{
+    background: url('../img/556449.jpg') center/ cover no-repeat fixed;
+    width: auto;    
+}
+/* search */
+.cont_search{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hPsearch{
+    width: 40%;
+    padding: 1% 4% 1% 2%;
+    border-radius: 100px;
+    border:  0px solid;
+    margin-right:2% ;
+}   
+.cont_search button{
+    width: 5%;
+    padding: 1%;
+}
+.like_person{
+    margin-left: -5%;
+    margin-bottom: .6%;
+    color: black;
+    border: 0px;
+}
+.newPerson{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+}
+
+
+.cont_card{
+    padding: 1%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap     ;
+}
+.ct_card{
+    width: 20%;
+    margin: 2%;
+}
+
+.card{
+    width: 90%;
+    background-color: rgba(37, 37, 34, 0.63);
+}
+.card_img{
+    width: 100%;
+}
+.card_img img{
+    width: 100%;
+    height: 40vh;
+}
+.card_name{
+    width: 100%;
+    color: white;
+    padding: 5%;
+}
+.name{
+    margin: 0;
+}
+.actor{
+    text-decoration: none;
+    color: royalblue;
+}
+.card_like{
+    padding: 5%;
+    text-align: right;
+    margin: 0 ;
+}
+.card_name button{
+    font-size: 120%;
+    border: 0px;
+    color: white;
+    background-color: rgba(37, 37, 34, 0.63);
+}
+.contBtn{
+    display: flex;
+}
+
+/* footer */
+footer{
+    padding: 1%;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between  ;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+.footer_link{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (max-width: 1205px){
+    .like_person{
+        font-size: 80%;
+        
+    }
+    .ct_card{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 905px){
+    .hPsearch{
+        width: 60%;
+        height: 5vh;
+    }
+    .like_person{
+        font-size: 120%;
+        margin-bottom: 1.5%;
+        margin-left: -7%;
+    }
+    .cont_logo{
+        width: 15%;
+    }
+}
+@media screen and (max-width: 805px){
+    .ct_card{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 693px){
+    .like_person{
+        margin-left: -9%;
+        font-size: 100%;
+        margin-bottom: 3%;
+    }
+    .cont_logo{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 585px){
+    .ct_card{
+        width: 45%;
+    }
+    .cont_logo{
+        width: max-content;
+    }
+}
+@media screen and (max-width: 518px){
+    .like_person{
+        margin-left: -12%;
+    }
+}
+@media screen and (max-width: 405px){
+    .like_person{
+        margin-left: -15%;
+    }
+    .cont_card{
+        display: flex;
+        justify-content: center;
+    }
+    .ct_card{
+        width: 70%;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer_link{
+        width: 25%;
+    }
+}
